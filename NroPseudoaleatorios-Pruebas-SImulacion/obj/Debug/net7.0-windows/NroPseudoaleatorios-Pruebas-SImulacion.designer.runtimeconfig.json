@@ -1,10 +1,20 @@
 {
   "runtimeOptions": {
     "tfm": "net7.0",
+    "frameworks": [
+      {
+        "name": "Microsoft.NETCore.App",
+        "version": "7.0.0"
+      },
+      {
+        "name": "Microsoft.WindowsDesktop.App",
+        "version": "7.0.0"
+      }
+    ],
     "additionalProbingPaths": [
-      "C:\\Users\\Deeka\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Deeka\\.nuget\\packages",
-      "D:\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
+      "C:\\Users\\Windows 10\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Windows 10\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
