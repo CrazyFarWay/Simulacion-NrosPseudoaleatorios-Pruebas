@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zjitrk31f1d1RelFERSlwaGWuDzsJTGrFHwarr2AYvP9j5KeQLC80puxVioIDQLu2jh65HbmdIL5BMdZvkiwqg==",
+  "dgSpecHash": "z25HtgxsWBZSbFaIYH3gLkM+o/VE9TE3KtuZ9tqCOe7EKtFxMnRVssjyv+aMLR3XrIrZMMq4un+lsgJyGtMrCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Deeka\\OneDrive\\Escritorio\\Util\\UTN\\4to\\Simulación\\MetodosYPruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Deeka\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
