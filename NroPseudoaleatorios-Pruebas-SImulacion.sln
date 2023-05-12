@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NroPseudoaleatorios-Pruebas-Simulacion", "NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleatorios-Pruebas-Simulacion.csproj", "{156729F3-9EAB-4330-B0FA-6E6FEFA4376A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{156729F3-9EAB-4330-B0FA-6E6FEFA4376A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156729F3-9EAB-4330-B0FA-6E6FEFA4376A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156729F3-9EAB-4330-B0FA-6E6FEFA4376A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156729F3-9EAB-4330-B0FA-6E6FEFA4376A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {762B5CA6-4649-4E9B-8DD7-9869C6AA748C}
+	EndGlobalSection
+EndGlobal

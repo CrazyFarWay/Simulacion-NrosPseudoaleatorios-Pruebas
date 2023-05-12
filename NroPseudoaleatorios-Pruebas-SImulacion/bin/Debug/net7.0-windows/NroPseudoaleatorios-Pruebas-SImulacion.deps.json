@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "NroPseudoaleatorios-Pruebas-Simulacion/1.0.0": {
+        "runtime": {
+          "NroPseudoaleatorios-Pruebas-Simulacion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NroPseudoaleatorios-Pruebas-Simulacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
