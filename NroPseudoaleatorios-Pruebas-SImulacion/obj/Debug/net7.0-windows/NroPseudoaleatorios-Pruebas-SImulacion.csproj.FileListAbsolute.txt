@@ -16,3 +16,4 @@ C:\Users\esteban\Documents\NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleat
 C:\Users\esteban\Documents\NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleatorios-Pruebas-SImulacion\obj\Debug\net7.0-windows\ref\NroPseudoaleatorios-Pruebas-SImulacion.dll
 C:\Users\esteban\Documents\NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleatorios-Pruebas-SImulacion\obj\Debug\net7.0-windows\NroPseudoaleatorios_Pruebas_SImulacion.MetodoCuadrado.resources
 C:\Users\esteban\Documents\NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleatorios-Pruebas-SImulacion\obj\Debug\net7.0-windows\NroPseudoaleatorios_Pruebas_SImulacion.MetodoLehmer.resources
+C:\Users\esteban\Documents\NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleatorios-Pruebas-SImulacion\obj\Debug\net7.0-windows\NroPseudoaleatorios_Pruebas_SImulacion.MetodoCongruencialMixto.resources

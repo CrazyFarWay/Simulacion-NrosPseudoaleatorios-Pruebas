@@ -63,7 +63,7 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
 
                 // Tomar los digitos de la restantes 
                 int longitudRestante = aux.ToString().Length - k;
-                string numerosRestantesStr = aux.ToString().Substring(k, longitudRestante); // enviamos k-1 porque la funcion Substring recibe un intervalo exclusivo
+                string numerosRestantesStr = aux.ToString().Substring(k, longitudRestante);
                 Int64 numerosRestantes = Int64.Parse(numerosRestantesStr);
 
                 // Obtenemos la nueva semilla
@@ -81,9 +81,24 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
             return arrayResultados.ToArray();
         }
 
-        public void calcularCongruencialMixto()
+        public double[] calcularCongruencialMixto(Int64 digitosDeseados, Int64 semilla, Int64 constanteMultiplicativa, Int64 constanteAditiva, Int64 modulo)
         {
+            List<double> arrayResultados = new List<double>();
 
+            for (int i = 0; i < digitosDeseados; i++)
+            {
+                // calcular semilla
+                semilla = (constanteMultiplicativa * semilla + constanteAditiva) % modulo;
+
+                // Obtenemos el numero aleatorio
+                double nuevoNumDecimal = (double) semilla / (double) modulo;
+
+                arrayResultados.Add(nuevoNumDecimal);
+
+                // Mostrar el número pseudoaleatorio generado
+                Console.WriteLine(nuevoNumDecimal);
+            }
+            return arrayResultados.ToArray();
         }
 
         public void calcularCongruencialMultiplicativo()

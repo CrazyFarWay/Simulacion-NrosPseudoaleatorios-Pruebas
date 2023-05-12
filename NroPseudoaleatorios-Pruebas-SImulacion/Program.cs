@@ -9,7 +9,7 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new MetodoLehmer());
+            Application.Run(new MetodoCongruencialMixto());
         }
     }
 }
