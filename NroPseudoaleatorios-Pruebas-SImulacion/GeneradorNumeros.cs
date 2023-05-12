@@ -101,9 +101,9 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
             return arrayResultados.ToArray();
         }
 
-        public void calcularCongruencialMultiplicativo()
+        public double[] calcularCongruencialMultiplicativo(Int64 digitosDeseados, Int64 semilla, Int64 constanteMultiplicativa, Int64 modulo)
         {
-
+            return calcularCongruencialMixto(digitosDeseados, semilla, constanteMultiplicativa, 0, modulo);
         }
 
         public void calcularCongruencialAditivo()

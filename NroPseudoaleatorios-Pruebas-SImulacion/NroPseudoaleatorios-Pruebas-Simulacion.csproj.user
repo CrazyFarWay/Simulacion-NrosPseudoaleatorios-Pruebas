@@ -4,6 +4,9 @@
     <Compile Update="MetodoCongruencialMixto.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="MetodoCongruencialMultiplicativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MetodoCuadrado.cs">
       <SubType>Form</SubType>
     </Compile>
