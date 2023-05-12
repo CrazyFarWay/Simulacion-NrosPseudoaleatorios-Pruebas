@@ -1,50 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows7.0": {
-      "MathNet.Numerics/5.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/MathNet.Numerics.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/MathNet.Numerics.dll": {
-            "related": ".xml"
-          }
-        }
-      }
-    }
+    "net7.0-windows7.0": {}
   },
-  "libraries": {
-    "MathNet.Numerics/5.0.0": {
-      "sha512": "pg1W2VwaEQMAiTpGK840hZgzavnqjlCMTVSbtVCXVyT+7AX4mc1o89SPv4TBlAjhgCOo9c1Y+jZ5m3ti2YgGgA==",
-      "type": "package",
-      "path": "mathnet.numerics/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net461/MathNet.Numerics.dll",
-        "lib/net461/MathNet.Numerics.xml",
-        "lib/net48/MathNet.Numerics.dll",
-        "lib/net48/MathNet.Numerics.xml",
-        "lib/net5.0/MathNet.Numerics.dll",
-        "lib/net5.0/MathNet.Numerics.xml",
-        "lib/net6.0/MathNet.Numerics.dll",
-        "lib/net6.0/MathNet.Numerics.xml",
-        "lib/netstandard2.0/MathNet.Numerics.dll",
-        "lib/netstandard2.0/MathNet.Numerics.xml",
-        "mathnet.numerics.5.0.0.nupkg.sha512",
-        "mathnet.numerics.nuspec"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0-windows7.0": [
-      "MathNet.Numerics >= 5.0.0"
-    ]
+    "net7.0-windows7.0": []
   },
   "packageFolders": {
     "C:\\Users\\Deeka\\.nuget\\packages\\": {},
@@ -53,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Deeka\\OneDrive\\Escritorio\\Util\\UTN\\4to\\Simulación\\MetodosYPruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
+      "projectUniqueName": "C:\\Users\\Deeka\\Source\\Repos\\Simulacion-NrosPseudoaleatorios-Pruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
       "projectName": "NroPseudoaleatorios-Pruebas-Simulacion",
-      "projectPath": "C:\\Users\\Deeka\\OneDrive\\Escritorio\\Util\\UTN\\4to\\Simulación\\MetodosYPruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
+      "projectPath": "C:\\Users\\Deeka\\Source\\Repos\\Simulacion-NrosPseudoaleatorios-Pruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
       "packagesPath": "C:\\Users\\Deeka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Deeka\\OneDrive\\Escritorio\\Util\\UTN\\4to\\Simulación\\MetodosYPruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\obj\\",
+      "outputPath": "C:\\Users\\Deeka\\Source\\Repos\\Simulacion-NrosPseudoaleatorios-Pruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
@@ -89,12 +50,6 @@
     "frameworks": {
       "net7.0-windows7.0": {
         "targetAlias": "net7.0-windows",
-        "dependencies": {
-          "MathNet.Numerics": {
-            "target": "Package",
-            "version": "[5.0.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

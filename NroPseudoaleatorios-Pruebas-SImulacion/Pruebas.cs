@@ -37,7 +37,7 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
                         }
                         Console.WriteLine("Ingrese el valor de Zc:");
                         double Zc = Convert.ToDouble(Console.ReadLine());
-                        Prueba.PruebaPromedio(n, datos, Zc);
+                        PruebaPromedio(n, datos, Zc);
                         break;
                     case 2:
                         // Llamar al método PruebaFrecuencias con los parámetros necesarios
@@ -53,7 +53,7 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
                         int x = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Ingrese el valor de alfa:");
                         double alfa = Convert.ToDouble(Console.ReadLine());
-                        Prueba.PruebaFrecuencias(n2, datos2, x, alfa);
+                        PruebaFrecuencias(n2, datos2, x, alfa);
                         break;
                     case 3:
                         Console.WriteLine("Ingrese los números separados por coma:");
