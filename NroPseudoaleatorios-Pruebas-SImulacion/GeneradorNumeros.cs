@@ -106,9 +106,35 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
             return calcularCongruencialMixto(digitosDeseados, semilla, constanteMultiplicativa, 0, modulo);
         }
 
-        public void calcularCongruencialAditivo()
+        public double[] calcularCongruencialAditivo(Int64 digitosDeseados, Int64[] semillas, Int64 modulo)
         {
+            List<double> arrayResultados = new List<double>();
+            // Obtengo el mayor subindice de las semillas
+            Int64 k = semillas.Length - 1;
+            
+            // Transformo el array de semillas en una lista dinamica
+            List<Int64> listaSemillas = new List<Int64>(semillas);
 
+            // Obtengo la semilla inicial n_0
+            Int64 semilla = listaSemillas[listaSemillas.Count - 1];
+
+            for (int i = 0; i < digitosDeseados; i++)
+            {
+                // calcular semilla
+                semilla = (semilla + listaSemillas.First()) % modulo;
+                // Remuevo la semilla utilizada y agrego la nueva calculada
+                listaSemillas.RemoveAt(0);
+                listaSemillas.Add(semilla);
+
+                // Obtenemos el numero aleatorio
+                double nuevoNumDecimal = (double) semilla / (double) modulo;
+
+                arrayResultados.Add(nuevoNumDecimal);
+
+                // Mostrar el número pseudoaleatorio generado
+                Console.WriteLine(nuevoNumDecimal);
+            }
+            return arrayResultados.ToArray();
         }
     }
 }
