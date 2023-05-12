@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NroPseudoaleatorios_Pruebas_SImulacion
 {
-    internal class Controller
+    internal class GeneradorNumeros
     {
         public double[] calcularParteCentralCuadrado(Int64 digitosDeseados, Int64 semilla)
         {
@@ -29,7 +29,6 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
 
                 // Tomar los dígitos centrales del cuadrado como la nueva semilla
                 int digitos = Convert.ToInt32(digitosDeseados);
-
                 int centro = cuadradoStr.Length / 2;
                 Int64 nuevoNum = Int64.Parse(cuadradoStr.Substring(centro - (digitos / 2), digitos));
 
@@ -47,9 +46,39 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
             return arrayResultados.ToArray();
         }
 
-        public void calcularLehmer()
+        public double[] calcularLehmer(Int64 digitosDeseados, Int64 semilla, Int64 t)
         {
+            List<double> arrayResultados = new List<double>();
+            int k = t.ToString().Length; // Cálculo de la cantidad de dígitos en t
 
+
+            for (int i = 0; i < digitosDeseados; i++)
+            {
+                // multiplicar n*t
+                Int64 aux = semilla * t;
+
+                // Tomar los k digitos de la izquiera del resultado de numAux
+                string numerosIzquierdaStr = aux.ToString().Substring(0, k);
+                Int64 numerosIzquierda = Int64.Parse(numerosIzquierdaStr);
+
+                // Tomar los digitos de la restantes 
+                int longitudRestante = aux.ToString().Length - k;
+                string numerosRestantesStr = aux.ToString().Substring(k, longitudRestante); // enviamos k-1 porque la funcion Substring recibe un intervalo exclusivo
+                Int64 numerosRestantes = Int64.Parse(numerosRestantesStr);
+
+                // Obtenemos la nueva semilla
+                semilla = numerosRestantes - numerosIzquierda;
+
+                // Obtenemos el numero aleatoreo
+                int cantidadDigitosSemilla = semilla.ToString().Length;
+                double nuevoNumDecimal = (double)semilla / (double)Math.Pow(10, cantidadDigitosSemilla);
+
+                arrayResultados.Add(nuevoNumDecimal);
+
+                // Mostrar el número pseudoaleatorio generado
+                Console.WriteLine(nuevoNumDecimal);
+            }
+            return arrayResultados.ToArray();
         }
 
         public void calcularCongruencialMixto()

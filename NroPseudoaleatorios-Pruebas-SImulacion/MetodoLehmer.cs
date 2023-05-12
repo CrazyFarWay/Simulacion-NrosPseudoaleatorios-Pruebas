@@ -1,11 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace NroPseudoaleatorios_Pruebas_SImulacion
 {
-    public partial class Form1 : Form
+    public partial class MetodoLehmer : Form
     {
-        Controller controller = new Controller();
-        public Form1()
+        GeneradorNumeros generadorNumeros = new GeneradorNumeros();
+
+        public MetodoLehmer()
         {
             InitializeComponent();
         }
@@ -14,7 +23,8 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
         {
             int digitosDeseados = int.Parse(digitosDeseadosTextBox.Text);
             int semilla = int.Parse(semillaTextBox.Text);
-            double[] resultados = controller.calcularParteCentralCuadrado(digitosDeseados, semilla);
+            int numeroEntero = int.Parse(numeroEnteroTextBox.Text);
+            double[] resultados = generadorNumeros.calcularLehmer(digitosDeseados, semilla, numeroEntero);
             resultRichTextBox.Text = "";
 
             for (int i = 0; i < resultados.Length; i++)

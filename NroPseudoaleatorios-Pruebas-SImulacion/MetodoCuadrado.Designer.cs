@@ -1,6 +1,6 @@
 ﻿namespace NroPseudoaleatorios_Pruebas_SImulacion
 {
-    partial class Form1
+    partial class MetodoCuadrado
     {
         /// <summary>
         ///  Required designer variable.
