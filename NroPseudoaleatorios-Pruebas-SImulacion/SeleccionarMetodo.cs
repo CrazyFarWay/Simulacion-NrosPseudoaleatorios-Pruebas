@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace NroPseudoaleatorios_Pruebas_SImulacion
 {
-    public partial class interfazInicial : Form
+    public partial class SeleccionarMetodo : Form
     {
-        public interfazInicial()
+        public SeleccionarMetodo()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

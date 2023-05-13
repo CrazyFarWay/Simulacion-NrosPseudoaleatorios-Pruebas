@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace NroPseudoaleatorios_Pruebas_SImulacion
 {
-    public partial class SeleccionarPrueba : Form
+    public partial class PruebaSerie : Form
     {
-        public SeleccionarPrueba()
+        public PruebaSerie()
         {
             InitializeComponent();
         }
-
-
     }
 }

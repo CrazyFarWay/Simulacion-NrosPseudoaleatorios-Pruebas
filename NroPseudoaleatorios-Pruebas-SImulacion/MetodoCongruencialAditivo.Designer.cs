@@ -144,6 +144,7 @@
             Controls.Add(label1);
             Name = "MetodoCongruencialAditivo";
             Text = "MetodoCongruencialAditivo";
+            Load += MetodoCongruencialAditivo_Load;
             ResumeLayout(false);
             PerformLayout();
         }

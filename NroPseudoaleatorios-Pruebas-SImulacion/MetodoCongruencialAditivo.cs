@@ -24,7 +24,7 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
             int digitosDeseados = int.Parse(digitosDeseadosTextBox.Text);
 
             // Obtener semillas del RichTextBox
-            string contenidoRichTextBox = semillasRichTextBox.Text; 
+            string contenidoRichTextBox = semillasRichTextBox.Text;
             string[] lineas = contenidoRichTextBox.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
             List<Int64> arrayEnteros = new List<Int64>();
 
@@ -46,6 +46,11 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
             {
                 resultRichTextBox.AppendText(resultados[i].ToString() + "\n");
             }
+        }
+
+        private void MetodoCongruencialAditivo_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
