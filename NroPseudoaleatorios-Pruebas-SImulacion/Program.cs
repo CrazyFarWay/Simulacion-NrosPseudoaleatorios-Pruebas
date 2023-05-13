@@ -10,7 +10,7 @@ namespace NroPseudoaleatorios_Pruebas_SImulacion
         {
             ApplicationConfiguration.Initialize();
             Console.ReadLine();
-            Application.Run(new MetodoCongruencialAditivo());
+            Application.Run(new SeleccionarMetodo());
         }
     }
 }

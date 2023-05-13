@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            botonMetodoCuadrado = new Button();
             label1 = new Label();
             label2 = new Label();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
+            botonMetodoLehmer = new Button();
+            botonMetodoCongruencialMixto = new Button();
+            botonMetodoCongruencialAditivo = new Button();
+            botonMetodoCongruencialMultiplicativo = new Button();
             SuspendLayout();
             // 
-            // button1
+            // botonMetodoCuadrado
             // 
-            button1.BackColor = Color.Gold;
-            button1.Font = new Font("Palatino Linotype", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(102, 217);
-            button1.Name = "button1";
-            button1.Size = new Size(121, 48);
-            button1.TabIndex = 0;
-            button1.Text = "Cuadrado";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            botonMetodoCuadrado.BackColor = Color.Gold;
+            botonMetodoCuadrado.Font = new Font("Palatino Linotype", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            botonMetodoCuadrado.Location = new Point(102, 217);
+            botonMetodoCuadrado.Name = "botonMetodoCuadrado";
+            botonMetodoCuadrado.Size = new Size(121, 48);
+            botonMetodoCuadrado.TabIndex = 0;
+            botonMetodoCuadrado.Text = "Cuadrado";
+            botonMetodoCuadrado.UseVisualStyleBackColor = false;
+            botonMetodoCuadrado.Click += button1_Click;
             // 
             // label1
             // 
@@ -71,49 +71,53 @@
             label2.TabIndex = 2;
             label2.Text = "Metodos";
             // 
-            // button2
+            // botonMetodoLehmer
             // 
-            button2.BackColor = Color.Gold;
-            button2.Font = new Font("Palatino Linotype", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(339, 217);
-            button2.Name = "button2";
-            button2.Size = new Size(121, 48);
-            button2.TabIndex = 3;
-            button2.Text = "Lehemer";
-            button2.UseVisualStyleBackColor = false;
+            botonMetodoLehmer.BackColor = Color.Gold;
+            botonMetodoLehmer.Font = new Font("Palatino Linotype", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            botonMetodoLehmer.Location = new Point(339, 217);
+            botonMetodoLehmer.Name = "botonMetodoLehmer";
+            botonMetodoLehmer.Size = new Size(121, 48);
+            botonMetodoLehmer.TabIndex = 3;
+            botonMetodoLehmer.Text = "Lehemer";
+            botonMetodoLehmer.UseVisualStyleBackColor = false;
+            botonMetodoLehmer.Click += botonMetodoLehmer_Click;
             // 
-            // button3
+            // botonMetodoCongruencialMixto
             // 
-            button3.BackColor = Color.Gold;
-            button3.Font = new Font("Palatino Linotype", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(580, 217);
-            button3.Name = "button3";
-            button3.Size = new Size(121, 48);
-            button3.TabIndex = 4;
-            button3.Text = "Congruencial Mixto";
-            button3.UseVisualStyleBackColor = false;
+            botonMetodoCongruencialMixto.BackColor = Color.Gold;
+            botonMetodoCongruencialMixto.Font = new Font("Palatino Linotype", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            botonMetodoCongruencialMixto.Location = new Point(580, 217);
+            botonMetodoCongruencialMixto.Name = "botonMetodoCongruencialMixto";
+            botonMetodoCongruencialMixto.Size = new Size(121, 48);
+            botonMetodoCongruencialMixto.TabIndex = 4;
+            botonMetodoCongruencialMixto.Text = "Congruencial Mixto";
+            botonMetodoCongruencialMixto.UseVisualStyleBackColor = false;
+            botonMetodoCongruencialMixto.Click += botonMetodoCongruencialMixto_Click;
             // 
-            // button4
+            // botonMetodoCongruencialAditivo
             // 
-            button4.BackColor = Color.Gold;
-            button4.Font = new Font("Palatino Linotype", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(220, 319);
-            button4.Name = "button4";
-            button4.Size = new Size(121, 48);
-            button4.TabIndex = 5;
-            button4.Text = "Congruencial Aditivo";
-            button4.UseVisualStyleBackColor = false;
+            botonMetodoCongruencialAditivo.BackColor = Color.Gold;
+            botonMetodoCongruencialAditivo.Font = new Font("Palatino Linotype", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            botonMetodoCongruencialAditivo.Location = new Point(220, 319);
+            botonMetodoCongruencialAditivo.Name = "botonMetodoCongruencialAditivo";
+            botonMetodoCongruencialAditivo.Size = new Size(121, 48);
+            botonMetodoCongruencialAditivo.TabIndex = 5;
+            botonMetodoCongruencialAditivo.Text = "Congruencial Aditivo";
+            botonMetodoCongruencialAditivo.UseVisualStyleBackColor = false;
+            botonMetodoCongruencialAditivo.Click += botonMetodoCongruencialAditivo_Click;
             // 
-            // button5
+            // botonMetodoCongruencialMultiplicativo
             // 
-            button5.BackColor = Color.Gold;
-            button5.Font = new Font("Palatino Linotype", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.Location = new Point(461, 319);
-            button5.Name = "button5";
-            button5.Size = new Size(121, 48);
-            button5.TabIndex = 6;
-            button5.Text = "Congruencial Multiplicativo";
-            button5.UseVisualStyleBackColor = false;
+            botonMetodoCongruencialMultiplicativo.BackColor = Color.Gold;
+            botonMetodoCongruencialMultiplicativo.Font = new Font("Palatino Linotype", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            botonMetodoCongruencialMultiplicativo.Location = new Point(461, 319);
+            botonMetodoCongruencialMultiplicativo.Name = "botonMetodoCongruencialMultiplicativo";
+            botonMetodoCongruencialMultiplicativo.Size = new Size(121, 48);
+            botonMetodoCongruencialMultiplicativo.TabIndex = 6;
+            botonMetodoCongruencialMultiplicativo.Text = "Congruencial Multiplicativo";
+            botonMetodoCongruencialMultiplicativo.UseVisualStyleBackColor = false;
+            botonMetodoCongruencialMultiplicativo.Click += botonMetodoCongruencialMultiplicativo_Click;
             // 
             // SeleccionarMetodo
             // 
@@ -121,13 +125,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Chocolate;
             ClientSize = new Size(800, 450);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(botonMetodoCongruencialMultiplicativo);
+            Controls.Add(botonMetodoCongruencialAditivo);
+            Controls.Add(botonMetodoCongruencialMixto);
+            Controls.Add(botonMetodoLehmer);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(button1);
+            Controls.Add(botonMetodoCuadrado);
             Name = "SeleccionarMetodo";
             Text = "interfazInicial";
             ResumeLayout(false);
@@ -136,12 +140,12 @@
 
         #endregion
 
-        private Button button1;
+        private Button botonMetodoCuadrado;
         private Label label1;
         private Label label2;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
+        private Button botonMetodoLehmer;
+        private Button botonMetodoCongruencialMixto;
+        private Button botonMetodoCongruencialAditivo;
+        private Button botonMetodoCongruencialMultiplicativo;
     }
 }

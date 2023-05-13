@@ -8,23 +8,19 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Windows 10\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\esteban\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Windows 10\\Source\\Repos\\Simulacion-NrosPseudoaleatorios-Pruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
+      "projectUniqueName": "C:\\Users\\esteban\\Documents\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
       "projectName": "NroPseudoaleatorios-Pruebas-Simulacion",
-      "projectPath": "C:\\Users\\Windows 10\\Source\\Repos\\Simulacion-NrosPseudoaleatorios-Pruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
-      "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Windows 10\\Source\\Repos\\Simulacion-NrosPseudoaleatorios-Pruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\obj\\",
+      "projectPath": "C:\\Users\\esteban\\Documents\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
+      "packagesPath": "C:\\Users\\esteban\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\esteban\\Documents\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-SImulacion\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\esteban\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -68,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

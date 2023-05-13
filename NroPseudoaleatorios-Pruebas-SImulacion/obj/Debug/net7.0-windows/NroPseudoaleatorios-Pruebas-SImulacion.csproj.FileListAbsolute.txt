@@ -19,3 +19,6 @@ C:\Users\esteban\Documents\NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleat
 C:\Users\esteban\Documents\NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleatorios-Pruebas-SImulacion\obj\Debug\net7.0-windows\NroPseudoaleatorios_Pruebas_SImulacion.MetodoCongruencialMixto.resources
 C:\Users\esteban\Documents\NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleatorios-Pruebas-SImulacion\obj\Debug\net7.0-windows\NroPseudoaleatorios_Pruebas_SImulacion.MetodoCongruencialMultiplicativo.resources
 C:\Users\esteban\Documents\NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleatorios-Pruebas-SImulacion\obj\Debug\net7.0-windows\NroPseudoaleatorios_Pruebas_SImulacion.MetodoCongruencialAditivo.resources
+C:\Users\esteban\Documents\NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleatorios-Pruebas-SImulacion\obj\Debug\net7.0-windows\NroPseudoaleatorios_Pruebas_SImulacion.Properties.Resources.resources
+C:\Users\esteban\Documents\NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleatorios-Pruebas-SImulacion\obj\Debug\net7.0-windows\NroPseudoaleatorios_Pruebas_SImulacion.SeleccionarMetodo.resources
+C:\Users\esteban\Documents\NroPseudoaleatorios-Pruebas-SImulacion\NroPseudoaleatorios-Pruebas-SImulacion\obj\Debug\net7.0-windows\NroPseudoaleatorios_Pruebas_SImulacion.SeleccionarPrueba.resources
