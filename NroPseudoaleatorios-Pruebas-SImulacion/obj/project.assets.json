@@ -8,24 +8,23 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Deeka\\.nuget\\packages\\": {},
-    "D:\\MicrosoftVisualStudio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Windows 10\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Deeka\\Source\\Repos\\Simulacion-NrosPseudoaleatorios-Pruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
+      "projectUniqueName": "C:\\Users\\Windows 10\\Source\\Repos\\Simulacion-NrosPseudoaleatorios-Pruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
       "projectName": "NroPseudoaleatorios-Pruebas-Simulacion",
-      "projectPath": "C:\\Users\\Deeka\\Source\\Repos\\Simulacion-NrosPseudoaleatorios-Pruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
-      "packagesPath": "C:\\Users\\Deeka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Deeka\\Source\\Repos\\Simulacion-NrosPseudoaleatorios-Pruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\obj\\",
+      "projectPath": "C:\\Users\\Windows 10\\Source\\Repos\\Simulacion-NrosPseudoaleatorios-Pruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\NroPseudoaleatorios-Pruebas-Simulacion.csproj",
+      "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Windows 10\\Source\\Repos\\Simulacion-NrosPseudoaleatorios-Pruebas\\NroPseudoaleatorios-Pruebas-SImulacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Deeka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +60,15 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
